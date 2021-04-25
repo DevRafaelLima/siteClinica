@@ -1,0 +1,428 @@
+.borda {
+	border: 1px solid red;
+}
+#topo {
+	max-width: 1200px;
+	height: 100px;
+	margin: auto;
+}
+#topoInt {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+.item{
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+.img {
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	float: left;
+}
+.inf {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding-left: 8px;
+}
+.inf a {
+	text-decoration: none;
+	color: #000;
+}
+.inf a:hover {
+	color: green;
+}
+.inf span {
+	color: #ccc;
+	font-size: 14px;
+}
+/*configuração menu*/
+.cont_menu {
+	display: flex;
+}
+.cont_menu nav {
+	flex: 6;
+	background: white;
+}
+.redesSociais {
+	flex: 1;
+}
+.cont_menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.cont_menu li a{
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	margin-left: 12px;
+	padding-left: 2px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.cont_menu li a:hover{
+	color: green;
+	border-bottom: 2px solid green;
+}
+#propaganda {
+	margin-top: 5px;
+	height: 250px;
+	background: green;
+	padding: 0px;
+}
+#propaganda img {
+	height: 250px;
+	width: 100%;
+}
+/*agendamentoContato*/
+#agendamentoContato {
+	padding: 20px 0px 20px 0px;
+}
+.aCContedudo {
+	display: flex;
+	height: 200px;
+}
+.aCItem {
+	flex: 1;
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc;
+}
+.aCItemInt {
+	height: 150px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imgConteudo{width: 300px;}
+.aCItemIntConteudo {padding-top: 14px;}
+.aCItemInt img{
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-right: 7px;
+}
+.aCItemInt h1 {font-size: 16px;}
+.aCItemInt b {font-size: 20px;}
+.aCItemBtn {
+	margin-bottom: -15px;
+	width: 300px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	background: green;
+	border-radius: 5px;
+}
+.aCItemBtn a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+/*saber mais*/
+#saberMais {margin-top: 50px;}
+#saberMais .container{
+	border: 1px solid #ccc;
+}
+.saberMaisBtn {
+	position: absolute;
+	background: #be1e2c;
+	width: 420px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	font-size: 16px;
+	border-radius: 7px;
+	margin-top: -20px;
+}
+.saberMaisBtn a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.saberMaisConteudo {
+	display: flex;
+	flex-direction: column;
+}
+.saberMaisConteudoTexto{
+	margin-top: 50px;
+	text-align: justify;
+	font-size: 13px;
+}
+.saberMaisConteudoImg{
+	display: flex;
+}
+.saberMaisConteudoImgItem {
+	flex: 1;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.saberMaisConteudoImgItemImg {
+	width: 100%;
+	height: 300px;
+	background: black;
+}
+.saberMaisConteudoImgItemLogo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-top: -50px;
+}
+.saberMaisConteudoImgItemLogo img {
+	border-radius: 50px;
+}
+.saberMaisConteudoImgItem h2{
+	color: #be1e2c;
+	font-weight: bold;
+	font-size: 30px;
+}
+.saberMaisConteudoImgItem h3 {font-weight: bold; text-transform: uppercase;font-size: 25px;}
+.saberMaisConteudoImgItem p {font-size: 15px;}
+/*blog*/
+#blog {
+	margin-top: 50px;
+}
+#blog .container {
+	border: 1px solid #ccc;
+}
+.blogBtn {
+	position: absolute;
+	background: #be1e2c;
+	width: 420px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	font-size: 16px;
+	border-radius: 7px;
+	margin-top: -20px;
+}
+.blogBtn a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.blogConteudoInterno {
+	margin-top: 50px;
+	display: flex;
+
+}
+.blogConteudoInternoItem {
+	flex: 1;
+	margin-left: 15px;
+}
+.galeria h5{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.galeria h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.galeria img {
+	width: 100%;
+	height: 300px;
+	background: yellow;
+}
+.galeria img:hover {
+	background-color: rgba(255,255,255, 0.5);
+}
+.galeria h6 {
+	font-size: 10px;
+	color: #ccc;
+}
+.desc {	
+	padding: 15px;
+
+}
+.galeriaBtn {
+	position: absolute;
+	margin: -20px 0px 0px 10px;
+	width: 40px;
+	height: 40px;
+	background: green;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.galeriaBtn a{
+	text-decoration: none;
+	color: white;
+}
+.galeriaBtn:hover {
+	background:white;
+	color: black;
+}
+.verTodasNoticias {
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 20px 0px 20px 0px;
+} 
+.verTodasNoticias a {
+	text-decoration: none;
+	color: black;
+}
+/*medicos*/
+#medicos {
+	margin-top: 20px;
+	padding: 50px 0px 50px 0px;
+	background: #f1f1f1;
+}
+.medicosConteudo {
+	display: flex;
+	margin-bottom: 20px;
+}
+.medicosConteudoItem {
+	flex: 1;
+}
+.medicosBtn {
+	background: #be1e2c;
+	width: 420px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	font-size: 16px;
+	border-radius: 7px;
+	margin-top: -20px;
+	margin-bottom: 50px;
+}
+
+.medicosBtn a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.medicosConteudoItem {
+	margin-left: 10px;
+	border: 1px solid #ccc;
+}
+.medicosConteudoItemImg {
+	height: 300px;
+	width: 100%;
+}
+.medicosConteudoItemConteudo{padding: 0px 10px 0px 10px;}
+.medicosConteudoItemConteudo h1 {font-size: 20px; margin-top: 7px;}
+.medicosConteudoItemConteudo h4 {font-size: 15px; color: #be1e2c}
+.medicosConteudoItemConteudo p {font-size: 12px;}
+.medicosConteudoItemBtn {
+	height: 30px;
+	width: 100%;
+	text-transform: uppercase;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 7px;
+	background-color: green;
+	margin-bottom: -15px;
+}
+.medicosConteudoItemBtn a {
+	color: white;
+	font-size: 15px;
+}
+/*especialidades*/
+#especilidade {
+	padding-top: 20px;
+}
+.especialidadeBtn {
+	background: #be1e2c;
+	width: 420px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	font-size: 16px;
+	border-radius: 7px;
+	margin-bottom: 70px;
+}
+.especialidadeBtn a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.especilidadeConteudo {
+	display: flex;
+
+}
+.especilidadeConteudoItem {
+	flex: 1;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	padding: 0px 12px 0px 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.especilidadeImg{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin-bottom: 15px;
+	margin-top: -50px;
+	background: green;
+}
+.especilidadeConteudoItem h4{font-weight: bold;}
+.especilidadeConteudoItem p {
+	font-size: 15px;
+	color: #ccc;
+}
+/*comentário*/
+#comentario{
+	background: #e7e7e7;
+	margin-top: 50px;
+}
+.comentarioConteudo {
+	display: flex;
+	background: #e7e7e7;
+	padding-top: 50px:
+	padding-bottom: 50px; 
+}
+.comentarioItem {
+	flex: 1;
+	margin-left: 10px;
+	padding: 50px 20px 50px 20px;
+}
+
+.texto {
+	color: #4f4444;
+	z-index: 999;
+	text-align: justify;
+}
+.comentarioImg {
+	margin: 10px;
+	float: left;
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
+	border: 2px solid white;
+}
+.verde {
+	background: #006738;
+	color: white;
+}
+.verde h4 {
+	font-size: 35px;
+	font-weight: bold;
+}
+footer {
+	background: #1d1f27;
+	color: white;
+	padding-top: 50px;
+}
